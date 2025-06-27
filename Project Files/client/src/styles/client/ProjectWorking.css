@@ -1,0 +1,61 @@
+.project-working {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  color: #0a66c2;
+  margin-bottom: 30px;
+}
+
+.working-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.working-card {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.freelancer-name {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.submitted-section h6 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.submitted-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.submitted-section li {
+  margin-bottom: 6px;
+}
+
+.submitted-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.status-badge {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #6c757d;
+}

@@ -1,0 +1,69 @@
+.my-applications {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+.application-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.application-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fefefe;
+  transition: box-shadow 0.2s ease;
+}
+
+.application-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.application-card h5 {
+  margin-bottom: 8px;
+  color: #007bff;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  text-transform: capitalize;
+  background-color: #ccc;
+  color: #333;
+}
+
+.badge.pending {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.badge.accepted {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.badge.rejected {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.applied-date {
+  font-style: italic;
+  font-size: 12px;
+  color: #666;
+}

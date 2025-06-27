@@ -1,0 +1,64 @@
+.project-data {
+  background: #fff;
+  padding: 30px;
+  max-width: 950px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+  color: #007bff;
+}
+
+.status {
+  padding: 6px 14px;
+  border-radius: 15px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.status.ongoing {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.status.completed {
+  background-color: #28a745;
+  color: white;
+}
+
+.description {
+  margin: 20px 0;
+  line-height: 1.7;
+  color: #444;
+}
+
+.info p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.files-section {
+  margin-top: 25px;
+}
+
+.files-section a {
+  color: #007bff;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}

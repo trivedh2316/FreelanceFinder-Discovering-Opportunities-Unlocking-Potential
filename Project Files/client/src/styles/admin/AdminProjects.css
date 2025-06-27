@@ -1,0 +1,80 @@
+.admin-projects-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.admin-projects-container h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #2d2d2d;
+  text-align: center;
+}
+
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.projects-table th,
+.projects-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  font-size: 15px;
+}
+
+.projects-table th {
+  background-color: #f9fafb;
+  color: #555;
+  font-weight: 600;
+}
+
+.projects-table tr:hover {
+  background-color: #f1f5f9;
+}
+
+.project-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.project-status.pending {
+  background-color: #fff5e6;
+  color: #d48806;
+}
+
+.project-status.ongoing {
+  background-color: #e6f7ff;
+  color: #096dd9;
+}
+
+.project-status.completed {
+  background-color: #f6ffed;
+  color: #389e0d;
+}
+
+.project-status.cancelled {
+  background-color: #fff1f0;
+  color: #cf1322;
+}
+
+@media (max-width: 768px) {
+  .projects-table th,
+  .projects-table td {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .admin-projects-container {
+    padding: 10px;
+  }
+}

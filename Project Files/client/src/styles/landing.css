@@ -1,0 +1,110 @@
+.landing-page {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #0a0a23;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero-buttons .btn-get-started,
+.hero-buttons .btn-post-job {
+  padding: 12px 25px;
+  margin-right: 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-get-started {
+  background-color: #14a800;
+  color: white;
+}
+
+.btn-get-started:hover {
+  background-color: #108d00;
+}
+
+.btn-post-job {
+  background-color: transparent;
+  border: 2px solid #14a800;
+  color: #14a800;
+}
+
+.btn-post-job:hover {
+  background-color: #e6f4ea;
+}
+
+.hero-image img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+.features-section {
+  padding: 60px 80px;
+  text-align: center;
+  background-color: #f0fdf4;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #0a0a23;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card h3 {
+  color: #14a800;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #555;
+}

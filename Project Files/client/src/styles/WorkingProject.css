@@ -1,0 +1,19 @@
+.working-project {
+  max-width: 700px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.working-project h2 {
+  color: #28a745;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.status-msg {
+  font-weight: bold;
+  color: #007bff;
+}

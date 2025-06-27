@@ -1,0 +1,66 @@
+.AuthenticatePage {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb);
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.auth-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.auth-toggle button {
+  width: 48%;
+  padding: 0.5rem 0;
+  border: none;
+  background-color: #e5e7eb;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.auth-toggle .active {
+  background-color: #10b981;
+  color: white;
+}
+
+.auth-form input,
+.auth-form select {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.auth-form button {
+  padding: 0.75rem;
+  width: 100%;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.auth-form button:hover {
+  background-color: #059669;
+}
